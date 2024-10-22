@@ -1,0 +1,125 @@
+/* Estilos generales */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background-color: #000000;
+  color: #9ad79b;
+}
+
+header {
+  background-color: #000;
+  padding: 20px;
+  text-align: left;
+  border-bottom: 2px dotted #4eff4e; /* Línea punteada verde */
+}
+header h1 {
+  font-size: 2rem;
+  color: #b0ffb0;
+}
+.doble_ralla_header {
+  background-color: #000;
+  padding: 20px;
+  border-bottom: 2px dotted #4eff4e; /* Línea punteada verde */
+}
+main {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.content {
+  width: 70%; /* Tamaño del contenido principal */
+}
+
+.content h2 {
+  font-size: 1.5rem;
+  color: #b0ffb0;
+}
+
+button {
+  background-color: #4f4343;
+  color: #b0ffb0;
+  padding: 1px 2px;
+  border: 2px solid #4eff4e;
+  cursor: pointer;
+  border-radius: 10%;
+}
+.p_ralla {
+  border: 2px dotted #4eff4e;
+}
+button:hover {
+  background-color: #333;
+}
+.ordenar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.sidebar {
+  width: 10%; /* Tamaño de la barra lateral */
+  background-color: #000;
+  padding: 0px;
+  border: 2px dotted #4eff4e; /* Borde punteado */
+}
+
+.sidebar h3 {
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.sidebar ul {
+  list-style: disc;
+  margin-left: 20px;
+}
+
+.features {
+  text-align: center;
+  padding: 20px 0px;
+  border-top: 2px dotted #4eff4e; /* Borde punteado para la sección de características */
+}
+
+.features h2 {
+  color: #b0ffb0;
+  font-size: 1.7rem;
+}
+
+.feature {
+  display: inline-block;
+  width: 30%;
+  padding: 20px;
+  background-color: #000;
+  border: 2px dotted #4eff4e;
+  margin: 10px;
+  vertical-align: top;
+  text-align: center;
+}
+
+.feature span {
+  font-size: 3rem;
+  display: block;
+  margin-bottom: 10px;
+}
+
+footer {
+  background-color: #000;
+  text-align: center;
+  border-top: 2px dotted #4eff4e;
+}
+footer p {
+  color: #b0ffb0;
+  padding: 20px;
+  margin: 0;
+}
+.doble_ralla_footer {
+  background-color: #000;
+  padding: 0;
+  border-bottom: 2px dotted #4eff4e;
+}
